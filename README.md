@@ -1,5 +1,5 @@
 
-# Aok_ProgressBar  [![Generic badge](https://img.shields.io/badge/0.1.0-Version-4286f4.svg)](https://github.com/KUCUKKARASLAN/Aok_ProgressBar)
+# Aok_ProgressBar  [![Generic badge](https://img.shields.io/badge/0.1.1-Version-4286f4.svg)](https://github.com/KUCUKKARASLAN/Aok_ProgressBar)
 Android Progress Bar Design Customization
 
 # Preview 
@@ -9,7 +9,7 @@ Android Progress Bar Design Customization
 >Easily reference the library in your Android projects using this dependency in your module's build.gradle file:
 ```
 dependencies {
-	 implementation 'com.github.KUCUKKARASLAN:Aok_ProgressBar:0.1.0'
+	 implementation 'com.github.KUCUKKARASLAN:Aok_ProgressBar:0.1.1'
 	}
 ```
 >Add repository to your app's build.gradle file:
