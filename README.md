@@ -17,7 +17,7 @@ dependencies {
 repositories {
     maven {
         ...
-        url 'https://dl.bintray.com/greenfrvr/maven/'
+        maven { url 'https://jitpack.io' }'
     }
 }
 ```
