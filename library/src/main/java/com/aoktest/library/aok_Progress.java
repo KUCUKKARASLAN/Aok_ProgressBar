@@ -70,8 +70,8 @@ public class aok_Progress extends View {
     }
     private void drawBackground(Canvas canvas) {
 
-        int w = canvas.getWidth();
-        int h = canvas.getHeight();
+        int w = getWidth();
+        int h = getHeight();
 
         float radius = 10.0f;
         mPaint.setStrokeWidth(2);
@@ -87,8 +87,8 @@ public class aok_Progress extends View {
     }
     private void drawBackgroundValue(Canvas canvas) {
 
-        int w = canvas.getWidth();
-        int h = canvas.getHeight();
+        int w = getWidth();
+        int h = getHeight();
 
         mProgresMax = mProgresMax < 0? 0:mProgresMax;
         mProgresValue = mProgresValue < 0? 0:mProgresValue;

@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
     <com.aoktest.library.aok_Progress
         android:id="@+id/progressTest"
         android:layout_width="match_parent"
@@ -17,29 +14,30 @@
         app:aokProgresValue="0"
         app:aokProgresingColor="#8BC34A" />
 
-    <LinearLayout
-        android:id="@+id/layoutest"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/progressTest"
-        android:orientation="vertical">
 
-        <com.aoktest.library.aok_Progress
-            android:id="@+id/progressTest2"
-            android:layout_width="match_parent"
-            android:layout_height="20dp"
-            android:layout_margin="10dp"
-            app:aokProgresBackColor="#FF9800"
-            app:aokProgresMax="100"
-            app:aokProgresValue="0"
-            app:aokProgresingColor="#8BC34A" />
-    </LinearLayout>
+    <com.aoktest.library.aok_Progress
+        android:id="@+id/progressTest2"
+        android:layout_width="200dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/progressTest"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        app:aokProgresBackColor="#FF9800"
+        app:aokProgresMax="100"
+        app:aokProgresValue="0"
+        app:aokProgresingColor="#8BC34A" />
+
 
     <Button
         android:id="@+id/buttonBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/layoutest"
+        android:layout_below="@+id/progressTest2"
         android:layout_marginTop="20dp"
         android:text="-10" />
 
@@ -47,9 +45,8 @@
         android:id="@+id/buttonNext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/layoutest"
+        android:layout_below="@+id/progressTest2"
         android:layout_alignParentRight="true"
         android:layout_marginTop="20dp"
         android:text="+10" />
 </RelativeLayout>
-</android.support.v7.widget.CardView>
