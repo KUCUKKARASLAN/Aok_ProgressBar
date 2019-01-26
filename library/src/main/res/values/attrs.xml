@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="aok_Progress">
+        <attr name="aokProgresBackColor" format="color"/>
+        <attr name="aokProgresingColor" format="color"/>
+        <attr name="aokProgresMax" format="integer"/>
+        <attr name="aokProgresValue" format="integer"/>
+    </declare-styleable>
+</resources>
